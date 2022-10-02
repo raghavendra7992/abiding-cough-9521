@@ -1,8 +1,20 @@
 import React from 'react'
-import { Box, Text } from "@chakra-ui/react"
+import { Box, Container, Image,Text } from "@chakra-ui/react"
+import News from './News';
+// import News from './News'
 // import {FontAwesomeIcon} from "@babel/core"
 
 export default function Navbar() {
+  let newDate = new Date()
+let date = newDate.getDate();
+let months=["Jan","Feb","Mar","April","May","June","July","August","Sep","Oct","Nov","Dec"]
+let month = months[newDate.getMonth() + 1];
+let year = newDate.getFullYear();
+let days=["Sunday","Monday","Tuesday","Thursday","Friday","Sataurday"]
+let a=new Date()
+let day=days[a.getDay()]
+
+
   return (
     <div>
         <Box display="flex" w="100%" h="40px">
@@ -46,8 +58,39 @@ export default function Navbar() {
         marginLeft:"10px"
        }} src="https://indianexpress.com/wp-content/themes/indianexpress/images/IE-insta-grey.svg" alt="" />
        </Box>
-    
     </Box>
+    <Box display="flex">
+      <Text>{day},{month} {date},{year}<br></br>EPAPER |
+TODAY’S PAPER</Text>
+<Image marginLeft="300px" src='https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg'/>
+<br />
+
+    </Box>
+    <Box>
+    <Text fontWeight="24px" fontSize="20px" textAlign="center">Jourlism Is Courge</Text>
+    </Box>
+    <Box display="flex" border="1px solid grey">
+      
+          <Text ml="20px">Home</Text>
+          <Text ml="20px">Explained</Text>
+          <Text ml="20px">Political Pulse</Text>
+          <Text ml="20px">India</Text>
+          <Text ml="20px">Cities</Text>
+          <Text ml="20px">OPinion</Text>
+          <Text ml="20px">Entertainment</Text>
+          <Text ml="20px">LifeStyle</Text>
+          <Text ml="20px">Technology</Text>
+          <Text ml="20px">Video</Text>
+          <Text ml="20px">Sports</Text>
+          <Text ml="20px">Education</Text>
+          <Text ml="20px">Premium</Text>
+          <Text ml="20px">Investigators</Text>
+          <Text ml="70px" backgroundColor="orange">Subcribe</Text>
+          <Text ml="20px" bg="black" color="white"> Sign In</Text>
+    </Box>
+    <Container>
+      {News.data}
+    </Container>
     </div>
   )
 }
