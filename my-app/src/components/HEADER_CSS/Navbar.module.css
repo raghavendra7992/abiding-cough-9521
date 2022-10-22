@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap");
 
 .NavbarMainDiv {
-  background-color: black;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  color: black;
+  margin: 10px;
+  column-gap: 30px;
   width: 100%;
   box-sizing: border-box;
 }

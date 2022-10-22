@@ -157,15 +157,15 @@ const Logo = () => {
               </a>
             </WrapItem>
           </Wrap>
+          <div className={style.label}>
+            <label>{today}</label>
+          </div>
         </div>
         <div className={style.LogoImgDiv}>
           <img
             src="https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg"
             alt="Indian Express"
           />
-          <div>
-            <label>{today}</label>
-          </div>
         </div>
       </div>
     </div>

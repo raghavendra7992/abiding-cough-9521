@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styled from "./city.module.css";
+// import styled from "./city.module.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
@@ -35,7 +35,7 @@ const City = ({ title, content, publishedAt, urlToImage, description }) => {
     // localStorage.setItem("new",JSON.stringify(localdata));
   };
   return (
-    <div className={styled.citytop}>
+    <div>
       <hr></hr>
       {data.map((el,index) => {
         return (
