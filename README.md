@@ -8,18 +8,18 @@ One voice come to break the silence. <h1>Founded by Shri Ramnath Goenka in 1932<
 
 <h2>Here are some screen-shots from our website</h2>
 
-<img src="pic(1).jpg"/>
+<img src="./public/pic(1).jpg"/>
 
 
-<img src= "pic(2).jpg"/>
-<ul>
-- Multiple News pages with filter
-- Header and Footer with routing functionality
-- Fetching api
-- Login page
-- Home Page 
-- Landing page
-</ul>
+<img src= "./public/pic(2).jpg"/>
+<ol>
+<ul>Multiple News pages with filter</ul>
+  <ul>Header and Footer with routing functionality</ul>
+<ul>Fetching api</ul>
+<ul>Login page</ul>
+<ul>Home Page </ul>
+<ul>Landing page</ul>
+</ol>
 
 ## Deployment Link
 https://indianexpressclonebysingh.netlify.app/
