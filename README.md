@@ -8,24 +8,25 @@ One voice come to break the silence. <h1>Founded by Shri Ramnath Goenka in 1932<
 
 <h2>Here are some screen-shots from our website</h2>
 
-<img src="https://i.postimg.cc/HsV4S2dc/Screenshot-9.png"/>
+<img src="pic(1).jpg"/>
 
 
-<img src= "https://i.postimg.cc/ZnkBVrc3/Screenshot-10.png"/>
+<img src= "pic(2).jpg"/>
+<ul>
 - Multiple News pages with filter
 - Header and Footer with routing functionality
 - Fetching api
 - Login page
 - Home Page 
 - Landing page
-
+</ul>
 
 ## Deployment Link
 https://indianexpressclonebysingh.netlify.app/
 ## Presentation Video Link
-{Prepare for presentation video}
+{https://drive.google.com/file/d/1fSzP2P2N4iZ3kJdj-M-NMUC4DKbaREC-/view?usp=sharing}
 ## 🔗 My Name is
-    .Raghavendra Singh
+    <h3>Raghavendra Singh</h3>
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/raghavendra7992)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raghavendra-singh-792716180/)
 <b>If you have any feedback, please reach out to us at LinkedIn handle.</b>
