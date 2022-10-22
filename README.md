@@ -8,10 +8,10 @@ One voice come to break the silence. <h1>Founded by Shri Ramnath Goenka in 1932<
 
 <h2>Here are some screen-shots from our website</h2>
 
-<img src="./public/pic(1).jpg"/>
+<img src="https://drive.google.com/file/d/1lvmo6nzJHTCVAukuntsOiYpI-B9DUCHA/view?usp=sharing"/>
 
 
-<img src= "./public/pic(2).jpg"/>
+<img src= "https://drive.google.com/file/d/1lvmo6nzJHTCVAukuntsOiYpI-B9DUCHA/view?usp=sharing"/>
 <ol>
 <ul>Multiple News pages with filter</ul>
   <ul>Header and Footer with routing functionality</ul>
